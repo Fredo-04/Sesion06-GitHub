@@ -23,3 +23,16 @@ double calcularArea(Circulo &r){
     double area=radio*radio;
     return area;
 }
+
+int main() {
+    float radio;
+    cout << "Ingrese el radio del círculo: ";
+    cin >> radio;
+
+    Circulo circ(radio);
+
+    cout << "El diámetro del círculo es: " << circ.getDiametro() << endl;
+    cout << "El área del círculo es: " << calcularArea(circ) << endl;
+
+    return 0;
+}
