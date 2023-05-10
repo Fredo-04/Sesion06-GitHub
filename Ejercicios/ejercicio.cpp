@@ -3,11 +3,11 @@
 int main(){
     Grupo grupo(5);
 
-    grupo.agregarAlumno("Juan", 20, 8.7);
-    grupo.agregarAlumno("Maria", 19, 9.5);
-    grupo.agregarAlumno("Pedro", 22, 7.3);
-    grupo.agregarAlumno("Laura", 21, 6.5);
-    grupo.agregarAlumno("Carlos", 20, 8.0);
+    grupo.agregarAlumno("Juan", 20, 18.7);
+    grupo.agregarAlumno("Maria", 19, 19.5);
+    grupo.agregarAlumno("Pedro", 22, 17.3);
+    grupo.agregarAlumno("Laura", 21, 16.5);
+    grupo.agregarAlumno("Carlos", 20, 18.0);
 
     cout<<"Estudiantes antes de ordenar por promedio: "<<endl;
     for(int i=0;i<grupo.VectorEstudiantes.size();i++){
